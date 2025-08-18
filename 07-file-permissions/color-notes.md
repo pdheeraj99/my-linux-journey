@@ -1,10 +1,4 @@
-Certainly! Below is your comprehensive guide to **File Permissions Management in Linux**, now visually enhanced for clarity and beauty. This version uses color, icons, and formatting best practices to make each section stand out and to help you quickly identify key concepts. The enhancements are designed to be compatible with most Markdown viewers that support emoji, syntax highlighting, and (optionally) inline HTML for color. For even richer visuals, use a Markdown viewer that supports custom CSS or HTML (like Typora, MarkText, or VSCode with extensions)    .
-
----
-
 # 🛡️ **File Permissions Management in Linux**
-
----
 
 ## 📂 <span style="color:#2b7a78"><b>Introduction to File Permissions</b></span>
 
@@ -267,11 +261,3 @@ echo "umask 027" >> ~/.bashrc  # Set permanently
 | 📁        | 👤📖✏️🚀   | 👥📖🚀     | 🌐📖🚀     | 755   | drwxr-xr-x   |
 | 📄        | 👤📖✏️     | 👥📖       | 🌐📖       | 644   | -rw-r--r--   |
 | 📄        | 👤📖✏️🚀   |            |            | 700   | -rwx------   |
-
----
-
-> **Tip:** For even more color and style, use a Markdown viewer that supports custom CSS or HTML. If your platform strips HTML, the emoji and icons will still provide clear visual cues     .
-
----
-
-**By following these visually enhanced guidelines, you can confidently manage Linux file permissions with clarity and security!**
