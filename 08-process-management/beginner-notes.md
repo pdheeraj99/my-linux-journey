@@ -312,6 +312,7 @@ Here is the refined version.
 
   * **Purpose:** Modern Linux systems lo services (daemons) ni manage cheyadaniki vaade main command.
   * **Common "Power-ups" (Sub-commands):**
+      * `list-units`: lists all services.
       * `status`: Service yokka current status ento chudu.
       * `start` / `stop` / `restart`: Service ni control cheyi.
       * `enable`: System boot ayinappudu service automatic ga start ayyela cheyi.
@@ -319,6 +320,9 @@ Here is the refined version.
       * `reload`: Service ni restart cheyakunda, kotha config ni load cheyi.
   * **Real-World Usage:**
     ```bash
+    # lists all the services runnning currently
+    sudo systemctl list-units --type=service
+
     # Nginx web server status ento chudu
     sudo systemctl status nginx
 
